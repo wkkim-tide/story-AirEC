@@ -2,6 +2,18 @@ import React from 'react';
 
 import { Button } from './Button';
 
+
+
+export const myStory = () => <Button>Hello, World!</Button>;
+
+myStory.parameters = {
+  design: {
+    type: "figma",
+    url: "https://www.figma.com/file/VRfeNOFt2w7kHRTgFgKr5V/KENDO-Material-2.2?node-id=3545%3A396251&t=SeD4wBjdkXM5gDxK-1",
+  },
+};
+
+/*
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: 'Example/Button',
@@ -11,6 +23,7 @@ export default {
     backgroundColor: { control: 'color' },
   },
 };
+
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template = (args) => <Button {...args} />;
@@ -37,4 +50,4 @@ export const Small = Template.bind({});
 Small.args = {
   size: 'small',
   label: 'Button',
-};
+};*/
