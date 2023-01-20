@@ -2,8 +2,14 @@
   "name": "story-AirEC",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/wkkim-tide/story-AirEC.git",
-  "author": "nine0109 <nine0109@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wkkim-tide/story-AirEC.git"
+  },
+  "author": {
+    "name": "nine0109",
+    "email": "nine0109@gmail.com"
+  },
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.20.12",
@@ -25,7 +31,8 @@
   "dependencies": {},
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=72b8745c0136"
   },
   "eslintConfig": {
     "overrides": [
@@ -38,5 +45,11 @@
         }
       }
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/wkkim-tide/story-AirEC/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/wkkim-tide/story-AirEC#readme",
+  "_id": "story-AirEC@1.0.0"
 }
